@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 *{
-    width: 100%;
+    width: 50%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -126,46 +126,54 @@ margin: 30px 0;
 
 @media (max-width: 600px) and (orientation: landscape) {
     .wrapper {
+        display: flex;
         width: 100%;
     }
 }
 
 @media (min-width: 601px) and (max-width: 1200px) and (orientation: landscape) {
     .wrapper {
+        display: flex;
         width: 100%;
     }
 }
 @media (max-width: 600px) and (orientation: potrait) 
 {
 .wrapper {
+    display: flex;
     width: 100%;
 }
 }
 @media (min-width: 601px) and (max-width: 1200px) and (orientation: portrait) {
     .wrapper {
+        display: flex;
         width: 100%;
     }
 }
 
 @media (max-width: 600px) and (orientation: landscape) {
     .input-box {
+        display: flex;
         width: 100%;
     }
 }
 
 @media (min-width: 601px) and (max-width: 1200px) and (orientation: landscape) {
     .input-box {
+        display: flex;
         width: 100%;
     }
 }
 @media (max-width: 600px) and (orientation: potrait) 
 {
 .input-box {
+    display: flex;
     width: 100%;
 }
 }
 @media (min-width: 601px) and (max-width: 1200px) and (orientation: portrait) {
     .input-box {
+        display: flex ;
         width: 100%;
     }
 }
